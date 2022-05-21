@@ -8,21 +8,34 @@
     <title>Modals</title>
     <link rel="stylesheet" href="./css/flex.css">
     <link rel="stylesheet" href="./css/my-grid.css">
+    <link rel="stylesheet" href="./css/util.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <div class="modal header">
-        <h3>My modal title</h3>
-        <img src="./svg/close-gray-700.svg" alt="">
+    <div class="box-modal">
+        <div class="modal-header flex text-align-center">
+            <h3 class="modal-title col-11">My modal title</h3>
+            <img src="./svg/close-gray-700.svg" alt="">
+        </div>
+        <hr />
+        <div class="modal-body">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit sequi tempore minima dolorem
+                pariatur commodi alias! Placeat quos, in dicta corporis voluptatibus illo quam totam? Repudiandae
+                suscipit aspernatur ullam?</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit sequi tempore minima dolorem
+                pariatur commodi alias! Placeat quos, in dicta corporis voluptatibus illo quam totam? Repudiandae
+                suscipit aspernatur ullam?</p>
+        </div>
+        <hr />
+        <div class="modal-footer flex text-align-center">
+            <div class="empty col-6"></div>
+            <h4 class="btn-1 col-3">Cancelar</h4>
+            <h4 class="btn-2 col-3">Avançar</h4>
+        </div>
     </div>
-    <div class="modal body">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit sequi tempore minima dolorem pariatur commodi alias! Placeat quos, in dicta corporis voluptatibus illo quam totam? Repudiandae suscipit aspernatur ullam?</p>
-    </div>
-    <div class="modal footer">
-        <h4 class="btn-1">Cancelar</h4>
-        <h4 class="btn-2">Avançar</h4>
-    </div>
+
 </body>
 
 </html>

@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: white;
+    --black: black;
+
+    --b-radius: 5px;
+    --padding: 10px;
+}
+
+body {
+    background-color: grey;
+}
+
+hr {
+    border: 1px solid grey;
+}
+
+.box-modal {
+    background-color: #424242;
+    width: 400px;
+    height: auto;
+    border-radius: var(--b-radius);
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.modal-header {
+    color: var(--white);
+    padding: var(--padding);
+}
+
+.modal-body {
+    color: var(--white);
+    padding: var(--padding);
+    line-height: 2;
+}
+
+.modal-footer {
+    color: var(--white);
+    padding: var(--padding);
+}
+
+.btn-1 {
+    border: solid 2px white;
+    border-radius: var(--b-radius);
+    margin-right: 5px;
+}
+
+.btn-2 {
+    border: solid 2px green;
+    border-radius: var(--b-radius);
+}
