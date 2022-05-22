@@ -17,16 +17,16 @@ body {
 }
 
 hr {
-    border: 1px solid #eee;
+    border: 1px solid #303f9f;
 }
 
 .box-modal {
-    background-color: white;
+    background-color: #d6e1fa;
     width: 400px;
     height: auto;
-    border-radius: var(--b-radius);
-
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 5px 5px #303f9f;
 }
 
 .modal-header {
@@ -35,7 +35,7 @@ hr {
 }
 
 .modal-body {
-    color: var(--black);
+    color: navy;
     padding: var(--padding);
     line-height: 2;
 }
@@ -54,7 +54,7 @@ hr {
 
 .btn-2 {
     color: var(--white);
-    border: solid 2px green;
+    border: solid 2px navy;
     border-radius: var(--b-radius);
-    background-color: #43a047;
+    background-color: #303f9f;
 }
