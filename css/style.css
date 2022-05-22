@@ -17,11 +17,11 @@ body {
 }
 
 hr {
-    border: 1px solid grey;
+    border: 1px solid #eee;
 }
 
 .box-modal {
-    background-color: #424242;
+    background-color: white;
     width: 400px;
     height: auto;
     border-radius: var(--b-radius);
@@ -30,28 +30,31 @@ hr {
 }
 
 .modal-header {
-    color: var(--white);
+    color: var(--black);
     padding: var(--padding);
 }
 
 .modal-body {
-    color: var(--white);
+    color: var(--black);
     padding: var(--padding);
     line-height: 2;
 }
 
 .modal-footer {
-    color: var(--white);
     padding: var(--padding);
 }
 
 .btn-1 {
-    border: solid 2px white;
+    color: var(--black);
+    border: solid 2px grey;
     border-radius: var(--b-radius);
     margin-right: 5px;
+    background-color: #eee;
 }
 
 .btn-2 {
+    color: var(--white);
     border: solid 2px green;
     border-radius: var(--b-radius);
+    background-color: #43a047;
 }
